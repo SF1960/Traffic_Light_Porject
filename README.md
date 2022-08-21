@@ -1,4 +1,5 @@
-# Traffic_Light_Porject
+# Traffic_Light_Project
+
 Code , Circuit and Wiring Diagrams for a Traffic Light Project
 
 This repositry holds the code, wiring and circuit diagrams to make a traffic light project using a Raspberry PI
