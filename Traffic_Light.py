@@ -24,7 +24,7 @@ stay_on_amber = int(raw_input(â€œEnter the ready to stop time in seconds [3]: â€
 
 # other times
 start_time = 3
-quit_prompt_time = 3
+quit_time = 3
 
 # set up GPIO
 GPIO.setwarnings(False)
@@ -112,12 +112,12 @@ print ""
 print "Push button pressed to quit"
 print "Resetting LED's"
 txt = "Quitting in {} seconds"
-print (txt.format(quit_prompt_time))
+print (txt.format(quit_time))
 
 print ""
 
 # turn on all LEDS momentarily to show push button pressed
-switch_LEDS(True, True, True, quit_prompt_time)
+switch_LEDS(True, True, True, quit_time)
 
 GPIO.cleanup()
 #############################################################
